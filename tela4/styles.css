@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/gif.txt);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    /* TODO: ... */
+}
+
+.videos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clip {
+    display: flex; 
+    justify-content: center; 
+    background-image: url(../img/MetalDeFundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    width: 300px;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-weight: bold;
+    padding: 10px;
+    width: auto;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    width: auto;
+    padding: 1rem;
+    color: khaki;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.header {
+    display: flex;
+    background: #222;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-item {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+  
+.main-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb( 51, 51, 51);
+    color: white;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+.main-nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-nav li {
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+}
+ 
+@media screen and (max-width: 575px) {
+
+    .main-nav {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .main-nav ul {
+        flex-direction: row-reverse;
+    }
+
+    .main-nav li {
+        display: flex;
+    }
+
+    .navbar-item {
+        padding: 5px;
+    }
+
+    body {
+        background-image: url(../img/LinkinPark.jpg);
+        background-size: auto;
+        background-repeat: repeat;
+    }
+}
