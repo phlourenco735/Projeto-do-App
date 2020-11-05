@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma,sans-serif
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+    background-image: url("../img/night-sky-pines.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    font-size: 60px;
+    color: white;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.container {
+}
+
+.header {
+    display: flex;
+    background: #222;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.imagem {  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 95%;
+    padding: 0.5rem; 
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    width: auto;
+    padding: 1rem;
+    color: #999;
+}
+
+.header {
+    display: flex;
+    background: #222;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-item {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+  
+.main-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb( 51, 51, 51);
+    color: white;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+.main-nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-nav li {
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+}
+ 
+@media screen and (max-width: 575px) {
+
+    .main-nav {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .main-nav ul {
+        flex-direction: row-reverse;
+    }
+
+    .main-nav li {
+        display: flex;
+    }
+
+    .navbar-item {
+        padding: 5px;
+    }
+}
